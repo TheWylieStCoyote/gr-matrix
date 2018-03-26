@@ -8,6 +8,9 @@
 %include "matrix_swig_doc.i"
 
 %{
+#include "matrix/multiply.h"
 %}
 
 
+%include "matrix/multiply.h"
+GR_SWIG_BLOCK_MAGIC2(matrix, multiply);

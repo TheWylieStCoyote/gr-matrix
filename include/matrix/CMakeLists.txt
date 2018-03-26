@@ -23,5 +23,5 @@
 ########################################################################
 install(FILES
     api.h
-    DESTINATION include/matrix
+    multiply.h DESTINATION include/matrix
 )
