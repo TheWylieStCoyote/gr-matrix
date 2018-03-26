@@ -12,6 +12,7 @@
 #include "matrix/multiply_const.h"
 #include "matrix/invert.h"
 #include "matrix/eigen.h"
+#include "matrix/correlate.h"
 %}
 
 
@@ -23,3 +24,5 @@ GR_SWIG_BLOCK_MAGIC2(matrix, multiply_const);
 GR_SWIG_BLOCK_MAGIC2(matrix, invert);
 %include "matrix/eigen.h"
 GR_SWIG_BLOCK_MAGIC2(matrix, eigen);
+%include "matrix/correlate.h"
+GR_SWIG_BLOCK_MAGIC2(matrix, correlate);
