@@ -23,5 +23,6 @@
 ########################################################################
 install(FILES
     api.h
-    multiply.h DESTINATION include/matrix
+    multiply.h
+    multiply_const.h DESTINATION include/matrix
 )

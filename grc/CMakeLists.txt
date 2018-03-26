@@ -19,5 +19,6 @@
 # Boston, MA 02110-1301, USA.
 
 install(FILES
-    matrix_multiply.xml DESTINATION share/gnuradio/grc/blocks
+    matrix_multiply.xml
+    matrix_multiply_const.xml DESTINATION share/gnuradio/grc/blocks
 )
