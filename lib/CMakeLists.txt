@@ -30,6 +30,7 @@ list(APPEND matrix_sources
     multiply_impl.cc
     multiply_const_impl.cc
     invert_impl.cc
+    eigen_impl.cc
 )
 
 set(matrix_sources "${matrix_sources}" PARENT_SCOPE)
