@@ -32,6 +32,7 @@ list(APPEND matrix_sources
     invert_impl.cc
     eigen_impl.cc
     correlate_impl.cc
+    const_source_impl.cc
 )
 
 set(matrix_sources "${matrix_sources}" PARENT_SCOPE)

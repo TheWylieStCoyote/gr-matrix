@@ -23,5 +23,6 @@ install(FILES
     matrix_multiply_const.xml
     matrix_invert.xml
     matrix_eigen.xml
-    matrix_correlate.xml DESTINATION share/gnuradio/grc/blocks
+    matrix_correlate.xml
+    matrix_const_source.xml DESTINATION share/gnuradio/grc/blocks
 )

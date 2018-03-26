@@ -27,5 +27,6 @@ install(FILES
     multiply_const.h
     invert.h
     eigen.h
-    correlate.h DESTINATION include/matrix
+    correlate.h
+    const_source.h DESTINATION include/matrix
 )
