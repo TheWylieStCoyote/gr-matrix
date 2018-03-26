@@ -13,4 +13,3 @@ In progress, more to come
   $ make test
   $ sudo make install && sudo ldconfig
   ```
-
