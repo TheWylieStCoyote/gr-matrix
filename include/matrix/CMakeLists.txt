@@ -24,5 +24,6 @@
 install(FILES
     api.h
     multiply.h
-    multiply_const.h DESTINATION include/matrix
+    multiply_const.h
+    invert.h DESTINATION include/matrix
 )
